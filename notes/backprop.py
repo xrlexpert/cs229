@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
   # Compare numerical gradients to those computed using backpropagation algorithm
   for key in params:
-    print key
+    print (key)
     # These should be the same
     print(bprop_cache[key])
     print(ng_cache[key])
